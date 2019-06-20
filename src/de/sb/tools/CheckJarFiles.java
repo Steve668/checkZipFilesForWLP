@@ -17,7 +17,7 @@ public class CheckJarFiles {
 
 	public static void main(String[] args) {
 		if(args.length < 1) {
-			System.err.println("need jar file");
+			System.err.println("No directory given!");
 			return;
 		}
 
